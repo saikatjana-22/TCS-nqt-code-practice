@@ -1,13 +1,12 @@
- #include<bits/stdc++.h>
- using namespace std;
- int main ()
- {
+#include<bits/stdc++.h>
+using namespace std;
+int main ()
+{
+
     string s;
-   getline(cin,s);
-    bool ispalindrome =true;
-
-    int start=0, end= s.size()-1;
-
+    getline (cin,s);
+    int start =0, end= s.size()-1;
+    bool ispalindrome=true;
     while (start<end)
     {
         if (s[start]!=s[end])
@@ -16,17 +15,15 @@
         }
         start++;
         end--;
-        
+
     }
-    if (ispalindrome)
+
+    if(ispalindrome)
     {
-        cout<< "true";
+        cout<<"true";
     }
     else 
-    {
-        cout<< "false";
-    }
- }
-
+    cout<< false;
+}
 
 
