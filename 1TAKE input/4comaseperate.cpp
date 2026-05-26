@@ -3,19 +3,30 @@ using namespace std;
 int main ()
 
 {
-   string s;
-      getline (cin,s);
-stringstream ss (s);
-vector<int>arr;
-string temp;
-while (getline (ss,temp,','))
+//  string s;
+//  getline (cin,s);
+//  bool ispalindrome= true;
+//  int start=0,end=s.size()-1;
+//  while (start<end)
+//  {
+//    if (s[start]!=s[end])
+//    {
+//       ispalindrome=false;
 
-{ int num = stoi(temp);
-arr.push_back(num);
-}
-
-for (int a: arr)
-{ cout<< a<<" ";
+//    }
+//    start++;
+//    end--;
+//  }
+//  if (ispalindrome)
+//  cout<< "true";
+//  else 
+//  cout <<false;
+string s;
+getline (cin,s)
+int vowles=0, consonent=0,space=0;
+for (int i=0;i<s.size();i++)
+{
+   char ch = tolowe
 }
 
 
